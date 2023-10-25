@@ -64,6 +64,11 @@
                 <artifactId>native-linux-s390x</artifactId>
                 <version>${project.version}</version>
             </dependency>
+	    <dependency>
+                <groupId>com.aayushatharva.brotli4j</groupId>
+                <artifactId>native-linux-ppc64le</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.aayushatharva.brotli4j</groupId>
                 <artifactId>native-osx-aarch64</artifactId>
