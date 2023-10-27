@@ -130,6 +130,7 @@ public class Brotli4jLoader {
                 return "linux-s390x";
             } else if ("ppc64le".equalsIgnoreCase(archName)) {
                 return "linux-ppc64le";
+            }
         } else if (osName.startsWith("Windows")) {
             if ("amd64".equalsIgnoreCase(archName)) {
                 return "windows-x86_64";
