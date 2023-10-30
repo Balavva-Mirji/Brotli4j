@@ -1,7 +1,7 @@
 #!/bin/sh
 
 CURPATH=$(pwd)
-TARGET_CLASSES_PATH="target/classes/lib/linux-s390x"
+TARGET_CLASSES_PATH="target/classes/lib/linux-ppc64le"
 TARGET_PATH="target"
 
 exitWithError() {
